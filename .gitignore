@@ -1,0 +1,14 @@
+# Secrets — never commit
+.env
+db.env
+
+# .NET
+backend/bin/
+backend/obj/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Docker volumes
+sqldata/
